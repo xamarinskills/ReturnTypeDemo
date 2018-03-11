@@ -273,19 +273,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
@@ -733,19 +720,6 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
         }
       }
     },
@@ -1196,19 +1170,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
@@ -1656,19 +1617,6 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
         }
       }
     },
@@ -2119,19 +2067,6 @@
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
         }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
@@ -2579,19 +2514,6 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
         }
       }
     },
@@ -3041,19 +2963,6 @@
         "build": {
           "build/netstandard1.0/Xamarin.Forms.props": {},
           "build/netstandard1.0/Xamarin.Forms.targets": {}
-        }
-      },
-      "ReturnTypeDemo/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.122203"
-        },
-        "compile": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReturnTypeDemo.dll": {}
         }
       }
     }
@@ -6740,17 +6649,11 @@
         "xamarin.forms.2.5.0.122203.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "ReturnTypeDemo/1.0.0": {
-      "type": "project",
-      "path": "../ReturnTypeDemo/ReturnTypeDemo.csproj",
-      "msbuildProject": "../ReturnTypeDemo/ReturnTypeDemo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
-      "ReturnTypeDemo >= 1.0.0",
       "Xamarin.Forms >= 2.5.0.122203"
     ]
   },
@@ -6787,11 +6690,7 @@
       },
       "frameworks": {
         "uap10.0.16299": {
-          "projectReferences": {
-            "D:\\Xamarin\\GitHub\\ReturnTypeDemo\\ReturnTypeDemo\\ReturnTypeDemo\\ReturnTypeDemo.csproj": {
-              "projectPath": "D:\\Xamarin\\GitHub\\ReturnTypeDemo\\ReturnTypeDemo\\ReturnTypeDemo\\ReturnTypeDemo.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
