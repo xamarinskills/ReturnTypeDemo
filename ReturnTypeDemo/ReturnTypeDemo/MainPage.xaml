@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ReturnTypeDemo"
+             x:Class="ReturnTypeDemo.MainPage"
+             Title="Floating Label"
+             xmlns:fl="clr-namespace:ReturnTypeDemo.FloatingEntryView"
+             xmlns:flo="clr-namespace:ReturnTypeDemo.CustomView"
+             BackgroundColor="White">
+
+    <StackLayout Padding="10" Spacing="10">
+        <fl:FloatingEntry AccentColor="Blue" Placeholder="User Name" />
+        <fl:FloatingEntry AccentColor="Blue" Placeholder="Email" />
+        <fl:FloatingEntry AccentColor="Blue" Placeholder="Password" />
+        <!--<local:CustomKeyEntry ReturnType="Done" Placeholder="Done"/>
+        <local:CustomKeyEntry ReturnType="Go" Placeholder="Go"/>
+        <local:CustomKeyEntry ReturnType="Next" Placeholder="Next"/>
+        <local:CustomKeyEntry ReturnType="Search" Placeholder="Search"/>
+        <local:CustomKeyEntry ReturnType="Send" Placeholder="Send"/>-->
+        
+    </StackLayout>
+
+</ContentPage>
