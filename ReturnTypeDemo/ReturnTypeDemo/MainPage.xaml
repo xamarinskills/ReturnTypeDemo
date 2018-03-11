@@ -9,14 +9,17 @@
              BackgroundColor="White">
 
     <StackLayout Padding="10" Spacing="10">
+        <!--? This is xamarin forms Custom Floating Label-->
         <fl:FloatingEntry AccentColor="Blue" Placeholder="User Name" />
         <fl:FloatingEntry AccentColor="Blue" Placeholder="Email" />
         <fl:FloatingEntry AccentColor="Blue" Placeholder="Password" />
-        <!--<local:CustomKeyEntry ReturnType="Done" Placeholder="Done"/>
+
+        <!--? This is xamarin forms ReturnType entry-->
+        <local:CustomKeyEntry ReturnType="Done" Placeholder="Done"/>
         <local:CustomKeyEntry ReturnType="Go" Placeholder="Go"/>
         <local:CustomKeyEntry ReturnType="Next" Placeholder="Next"/>
         <local:CustomKeyEntry ReturnType="Search" Placeholder="Search"/>
-        <local:CustomKeyEntry ReturnType="Send" Placeholder="Send"/>-->
+        <local:CustomKeyEntry ReturnType="Send" Placeholder="Send"/>
         
     </StackLayout>
 
